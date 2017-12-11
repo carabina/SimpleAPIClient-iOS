@@ -23,9 +23,9 @@
 		085617A11FDE9623004DB117 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085617951FDE9623004DB117 /* Persistable.swift */; };
 		085617A21FDE9623004DB117 /* StorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085617961FDE9623004DB117 /* StorageClient.swift */; };
 		085617A41FDE9628004DB117 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 085617A31FDE9628004DB117 /* DataModel.xcdatamodel */; };
-		085617A61FDE9866004DB117 /* APIClient-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 085617A51FDE9866004DB117 /* APIClient-iOS.podspec */; };
 		085617A81FDE98BD004DB117 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 085617A71FDE98BD004DB117 /* README.md */; };
 		085617AA1FDE9920004DB117 /* ClientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085617A91FDE9920004DB117 /* ClientExample.swift */; };
+		085617AC1FDEA63E004DB117 /* SimpleAPIClient-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 085617AB1FDEA63E004DB117 /* SimpleAPIClient-iOS.podspec */; };
 		6F4EEA8C068E8E9FC28B8F14 /* Pods_APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F3F9AC73EF3EF0DF29EBE /* Pods_APIClient.framework */; };
 		E884AADEF15B6AED81C8DE2B /* Pods_APIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4C10FC8B8021AE2153223F /* Pods_APIClientTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,9 +61,9 @@
 		085617951FDE9623004DB117 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		085617961FDE9623004DB117 /* StorageClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageClient.swift; sourceTree = "<group>"; };
 		085617A31FDE9628004DB117 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		085617A51FDE9866004DB117 /* APIClient-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "APIClient-iOS.podspec"; sourceTree = "<group>"; };
 		085617A71FDE98BD004DB117 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		085617A91FDE9920004DB117 /* ClientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientExample.swift; sourceTree = "<group>"; };
+		085617AB1FDEA63E004DB117 /* SimpleAPIClient-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SimpleAPIClient-iOS.podspec"; sourceTree = "<group>"; };
 		193FEF76A7BD4424B53EF0FE /* Pods-APIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientTests/Pods-APIClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A4C10FC8B8021AE2153223F /* Pods_APIClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD2AA5552B88A179F3759FE /* Pods-APIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient/Pods-APIClient.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		085617631FDE95F3004DB117 = {
 			isa = PBXGroup;
 			children = (
+				085617AB1FDEA63E004DB117 /* SimpleAPIClient-iOS.podspec */,
 				085617A91FDE9920004DB117 /* ClientExample.swift */,
 				085617A71FDE98BD004DB117 /* README.md */,
-				085617A51FDE9866004DB117 /* APIClient-iOS.podspec */,
 				0856176F1FDE95F3004DB117 /* APIClient */,
 				0856177A1FDE95F3004DB117 /* APIClientTests */,
 				0856176E1FDE95F3004DB117 /* Products */,
@@ -296,8 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085617AC1FDEA63E004DB117 /* SimpleAPIClient-iOS.podspec in Resources */,
 				085617A81FDE98BD004DB117 /* README.md in Resources */,
-				085617A61FDE9866004DB117 /* APIClient-iOS.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
