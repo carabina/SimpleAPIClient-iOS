@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import APIClient
 
 class ClientExample: Service {
     
