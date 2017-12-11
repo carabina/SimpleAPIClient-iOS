@@ -1,13 +1,13 @@
 ENV['FORK_XCODE_WRITING'] = "true"
 
 Pod::Spec.new do |s|
-  s.name = 'APIClient'
-  s.version = '1.0.0'
+  s.name = 'APIClient-iOS'
+  s.version = '0.1.0'
   s.summary = 'Network Client for iOS Projects'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.author = { 'rich@richappz.com' => 'rich@richappz.com' }
   s.source = { :git => 'https://github.com/RichAppz/APIClient-iOS.git', :tag => s.version }
-  s.authors = 'RichAbery/RichAppz'
-  s.license = 'Velocity'
-  s.homepage = 'https://velocityapp.com/'
+  s.homepage = 'http://richappz.com/'
   s.ios.deployment_target = '10.0'
   s.frameworks = 'CoreData'
   s.requires_arc = true

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import APIClient
 
 class ClientExample: Service {
     
@@ -18,23 +19,23 @@ class ClientExample: Service {
     
     init() { }
     
-    func post(request: Request, completion: OperationResponse? = nil) {
+    func post(_ request: Request, completion: OperationResponse? = nil) {
         makeRequest(.post, request: request, completion: completion)
     }
     
-    func get(request: Request, completion: OperationResponse? = nil) {
+    func get(_ request: Request, completion: OperationResponse? = nil) {
         makeRequest(.get, request: request, completion: completion)
     }
     
-    func delete(request: Request, completion: OperationResponse? = nil) {
+    func delete(_ request: Request, completion: OperationResponse? = nil) {
         makeRequest(.delete, request: request, completion: completion)
     }
     
-    func put(request: Request, completion: OperationResponse? = nil) {
+    func put(_ request: Request, completion: OperationResponse? = nil) {
         makeRequest(.put, request: request, completion: completion)
     }
     
-    func patch(request: Request, completion: OperationResponse? = nil) {
+    func patch(_ request: Request, completion: OperationResponse? = nil) {
         makeRequest(.patch, request: request, completion: completion)
     }
     
